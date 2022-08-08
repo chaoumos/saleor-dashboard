@@ -1565,6 +1565,11 @@ export const order = (placeholder: string): OrderDetailsFragment => ({
     amount: 0,
     currency: "USD",
   },
+  totalBalance: {
+    __typename: "Money",
+    amount: 0,
+    currency: "USD",
+  },
   undiscountedTotal: {
     __typename: "TaxedMoney",
     gross: {
@@ -1860,6 +1865,11 @@ export const draftOrder = (placeholder: string): OrderDetailsFragment => ({
   },
   totalAuthorized: null,
   totalCaptured: null,
+  totalBalance: {
+    __typename: "Money" as "Money",
+    amount: 168.3,
+    currency: "USD",
+  },
   undiscountedTotal: {
     __typename: "TaxedMoney",
     gross: {
