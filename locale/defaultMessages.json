@@ -3919,6 +3919,10 @@
     "context": "variant creation step",
     "string": "Prices and SKU"
   },
+  "Sxzua5": {
+    "context": "order payment",
+    "string": "Settled"
+  },
   "T/5OyA": {
     "string": "No translation yet"
   },
